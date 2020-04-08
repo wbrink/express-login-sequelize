@@ -1,0 +1,13 @@
+{{!-- keeping handlebar msg for user feedback --}}
+<div class="feedback">{{ msg }}</div>
+<h1>Login</h1>
+
+
+{{!-- the name attributes for the inputs must stay the same --}}
+{{!-- name="username" --}}
+{{!-- name="password" --}}
+<form action="/login" method="post">
+    <input type="username" name="username" id="username" placeholder="Username">
+    <input type="password" name="password" id="password">
+    <input type="submit" value="login">
+</form>
